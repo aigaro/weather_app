@@ -12,7 +12,7 @@
 		088B1D0A1E59C22D00EBD856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088B1D081E59C22D00EBD856 /* Main.storyboard */; };
 		088B1D0C1E59C22D00EBD856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088B1D0B1E59C22D00EBD856 /* Assets.xcassets */; };
 		088B1D0F1E59C22D00EBD856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088B1D0D1E59C22D00EBD856 /* LaunchScreen.storyboard */; };
-		088B1D171E5A36E400EBD856 /* playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088B1D161E5A36E400EBD856 /* playground.swift */; };
+		088B1D191E5B70B500EBD856 /* IlmaAndmed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088B1D181E5B70B500EBD856 /* IlmaAndmed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		088B1D0B1E59C22D00EBD856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088B1D0E1E59C22D00EBD856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		088B1D101E59C22D00EBD856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		088B1D161E5A36E400EBD856 /* playground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playground.swift; sourceTree = "<group>"; };
+		088B1D181E5B70B500EBD856 /* IlmaAndmed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IlmaAndmed.swift; path = ../IlmaAndmed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				088B1D041E59C22D00EBD856 /* AppDelegate.swift */,
+				088B1D181E5B70B500EBD856 /* IlmaAndmed.swift */,
 				088B1D061E59C22D00EBD856 /* ViewController.swift */,
-				088B1D161E5A36E400EBD856 /* playground.swift */,
 				088B1D081E59C22D00EBD856 /* Main.storyboard */,
 				088B1D0B1E59C22D00EBD856 /* Assets.xcassets */,
 				088B1D0D1E59C22D00EBD856 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				088B1D171E5A36E400EBD856 /* playground.swift in Sources */,
+				088B1D191E5B70B500EBD856 /* IlmaAndmed.swift in Sources */,
 				088B1D071E59C22D00EBD856 /* ViewController.swift in Sources */,
 				088B1D051E59C22D00EBD856 /* AppDelegate.swift in Sources */,
 			);
