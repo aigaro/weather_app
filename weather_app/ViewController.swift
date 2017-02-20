@@ -7,6 +7,8 @@
 //https://medium.com/@lucascerro/understanding-nsxmlparser-in-swift-xcode-6-3-1-7c96ff6c65bc#.cp6nw4hf5
 import UIKit
 
+var ilm = IlmaAndmed()
+
 class ViewController: UIViewController, XMLParserDelegate {
     
     func beginParse() {
@@ -20,7 +22,7 @@ class ViewController: UIViewController, XMLParserDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //Degrees.text = temperature
+        Degrees.text = ilm.weatherDict[0]
         //Degrees.text = ilmastik
         
         
